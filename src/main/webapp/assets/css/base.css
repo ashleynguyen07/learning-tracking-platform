@@ -16,12 +16,32 @@ html {
     --white-color: #fff;
 }
 
+.text-color-white {
+    color: var(--white-color);
+}
+
 .text-color-primary {
     color: var(--primary-color);
 }
 
 .text-color-gray {
     color: #333;
+}
+
+.text-color-green {
+    color: green;
+}
+
+.text-color-red {
+    color: red;
+}
+
+.background-gray{
+    background-color: #ccc;
+}
+
+.background-primary {
+    background-color: var(--primary-color);
 }
 
 .grid {
@@ -67,3 +87,20 @@ html {
         opacity: 1;
     }
 }
+
+.fs-20 {
+    font-size: 20px;
+}
+
+/* table style  */
+thead th, td {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* dropdown */
+
+
+
+
