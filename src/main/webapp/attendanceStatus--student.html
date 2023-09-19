@@ -59,30 +59,105 @@
                   <div class="app-home__heading">
                     <div class="header-name">
                       <i class="fa-solid fa-arrow-left pe-2 ps-2"></i>
-                      Thông báo từ giáo viên
+                      Nghỉ Học
                     </div>
                   </div>
                   
                   <div class="row mt-5 px-5">
                     <div class="col-3">
-                      <div class="box-section mh-100">
+                      <div class="box-section h-100 w-75">
                         <div class="app-home__heading">
                           <div class="header-name">
                             <i class="fa-solid fa-calendar-days pe-2 ps-2"></i>
-                            Thời khoá biểu
+                            Lớp
                           </div>
                         </div>
-                        <div class="dropdown">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown button
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        
+                          <div class="dropdown mt-5">
+                            <div class="drop-down--header" onclick="toggleMenu1()">
+                              <span class="drop-down--title">Lớp 10</span>
+                              <i class="fa-solid fa-caret-down dropdown--icon"></i>
+                            </div>
+                              <div class="drop-down--content" id="subMenu1">
+                                <ul class="drop-down-link">
+                                  <li><a href="#">Kỳ 1</a></li>
+                                  <li><a href="#">Kỳ 2</a></li>
+                                </ul>
+                              </div>
                           </div>
+                        
+                    
+                        
+                          <div class="dropdown mt-5">
+                            <div class="drop-down--header" onclick="toggleMenu2()">
+                              <span class="drop-down--title">Lớp 10</span>
+                              <i class="fa-solid fa-caret-down dropdown--icon"></i>
+                            </div>
+                              <div class="drop-down--content" id="subMenu2">
+                                <ul class="drop-down-link">
+                                  <li><a href="#">Kỳ 1</a></li>
+                                  <li><a href="#">Kỳ 2</a></li>
+                                </ul>
+                              </div>
+                          </div>
+                      
+                       
+                        <div class="dropdown my-5">
+                          <div class="drop-down--header" onclick="toggleMenu3()">
+                            <span class="drop-down--title">Lớp 10</span>
+                            <i class="fa-solid fa-caret-down dropdown--icon"></i>
+                          </div>
+                            <div class="drop-down--content" id="subMenu3">
+                              <ul class="drop-down-link">
+                                <li><a href="#">Kỳ 1</a></li>
+                                <li><a href="#">Kỳ 2</a></li>
+                              </ul>
+                            </div>
                         </div>
                       </div>
+
+                      
+                    </div>
+
+                    <div class="col">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th class="col-1 text-center" scope="col" rowspan="2">STT</th>
+                            <th class="col-1 text-center" scope="col" rowspan="2">Ngày</th>
+                            <th class="col-2 text-center"  scope="col" colspan="2">Phép</th>
+                            <th class="col-3 text-center" scope="col" rowspan="2">Nội Dung
+                            </th>
+                          </tr>
+                          <tr>
+                            <th class="text-center" scope="col">Có</th>
+                            <th class="text-center" scope="col" rowspan="2">Không</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="col">1</th>
+                            <td>10/10/2023</td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>11/10/2023</td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>20/10/2023</td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
 
@@ -108,6 +183,6 @@
       src="https://kit.fontawesome.com/5dd1c416dc.js"
       crossorigin="anonymous"
     ></script>
-    
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
