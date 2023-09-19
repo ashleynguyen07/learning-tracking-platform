@@ -49,29 +49,7 @@
 
 .box-section {
     background-color: var(--white-color);
-    color: var(--primary-color);
-    /* position: absolute; */
     /* height: 400px; */
-    height: fit-content;
-}
-.send-notification {
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.noti-select {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: -5px;
-}
-.noti-textarea {
-    font-size: 15px;
-}
-.btn-submit {
-    background-color: var(--primary-color);
-    border-radius: 0.05 !important ;
-    font-size: 15px;
-
 }
 
 .app-home__heading .header-name {
@@ -81,9 +59,6 @@
     font-weight: bold;
     color: var(--primary-color);
     position: relative;
-}
-.header-name i {
-    color: var(--primary-color);
 }
 
 .info-container .img-account-profile {
