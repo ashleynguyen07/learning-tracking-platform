@@ -49,13 +49,13 @@
 
 .box-section {
     background-color: var(--white-color);
-    height: 1080px;
+    /* height: 400px; */
 }
 
 .app-home__heading .header-name {
     font-size: 20px;
     padding: 10px;
-    border-bottom: 2px solid #BDBDBD;
+    border-bottom: 2px solid var(--primary-color);
     font-weight: bold;
     color: var(--primary-color);
     position: relative;
@@ -66,6 +66,30 @@
     border: 3px solid #ccc;
 }
 
+.student-list-info .list-info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.student-list-info .list-info .info-href-contain:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.student-list-info .list-info .info-href-contain a{
+    text-decoration: none;
+}
+
+.info-href-contain i {
+    width: 20px;
+}
+
+.info-container .img-teacher-profile {
+    height: 80px;
+    border: 3px solid #ccc;
+}
 
 .timetable-href {
     padding: 8px 24px;
@@ -152,78 +176,15 @@
     color: var(--primary-color);
 }
 
-
-.drop-down{
-    font-size: 30px;
-}
-
-.drop-down--title{
-    height: 30px;
-    display: inline-block;
-    font-size: 20px;
-    background-color: #dbdbdb;
-    width: 75%;
-    position: relative;
-    left: 10%;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    color: #888;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.drop-down--content{
-    position: relative;
-    max-height: 60px;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-
-.drop-down--content.open-menu{
-    max-height: 60px;
-}
-
-.dropdown--icon{
+.header-notice {
     position: absolute;
-    font-size: 20px;
-    top: 5px;
-    right: 50px;
-    color: #888;
+    top: 4px;
+    left: 25px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: red;
+    color: white;
 }
 
-ul{
-    list-style: none;
-    background-color: #fff;
-    width: 70%;
-    position: relative;
-    left: 10%;
-    font-size: 15px;
- 
-}
-
-ul li{
-    height: 20px;
-    width: 100%;
-    border: solid 1px #dbdbdb;
-    box-sizing: border-box;
-    
-}
-
-ul li a{
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    color: #888;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
-.table{
-    font-size: 20px;
-}
-
-.table thead{
-    background-color: #2FB5FA;
-}
