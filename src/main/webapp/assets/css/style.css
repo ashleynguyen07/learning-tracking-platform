@@ -1,6 +1,6 @@
 .app {
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
 }
 
 /* Header Style  */
@@ -43,7 +43,7 @@
 .app-container {
     background-color: var(--primary-color);
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
     margin-top: 80px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .info-container .img-account-profile {
-    height: 190px;
+    height: 80px;
     border: 3px solid #ccc;
 }
 
@@ -205,14 +205,14 @@
 
 /* Student profile  */
 .student-profile__avatar .img-account-profile{
-    height: 250px;
+    height: 190px;
     border: 3px solid #ccc;
 }
 
 .student-profile {
     display: flex;
     align-items: center;
-    min-height: 300px;
+    min-height: 100%;
 }
 
 .student-profile .profile-info {
@@ -239,7 +239,9 @@
 
   .tab-item {
     min-width: 80px;
-    padding: 16px 20px 11px 20px;
+    /* padding: 16px 20px 11px 20px;
+     */
+    padding: 8px;
     font-size: 20px;
     text-align: center;
     color: var(#999);
@@ -304,7 +306,7 @@
 
 .change-password-container input {
     padding: 8px 16px;
-    font-size: 20px;
+    font-size: 16px;
     outline: none;
 }
 
